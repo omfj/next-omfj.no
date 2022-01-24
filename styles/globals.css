@@ -3,3 +3,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#010510];
+        @apply h-[100%];
+        @apply text-white;
+        @apply p-5
+    }
+  }
+  

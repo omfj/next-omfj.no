@@ -4,7 +4,6 @@ const NavLink = ({ title, href}) => {
         <a 
             href={href}
             className="
-                text-white
                 text-center
                 mx-5
                 rounded-xl

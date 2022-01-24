@@ -8,8 +8,7 @@ const ProjectBox = ({ title, desc, href }) => {
             border-[#e6292b]
             mb-8
             py-3
-            last:mb-0
-            text-white
+            last:mb-8
         ">
             <p className="text-xl underline px-5 mb-3">
                 {title}

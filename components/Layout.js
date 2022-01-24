@@ -1,10 +1,6 @@
 const Layout = ({ children }) => {
     return (
-        <div className="
-            h-screen
-            w-screen
-            bg-[#010510]
-        ">
+        <div>
             <main className="
                 font-JetBrains 
                 my-20 
