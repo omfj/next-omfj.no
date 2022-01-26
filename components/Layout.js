@@ -4,10 +4,8 @@ const Layout = ({ children }) => {
             font-JetBrains 
             max-w-[500px]
             w-[90%]
-            absolute
-            top-[10%]
-            left-1/2 
-            -translate-x-1/2
+            m-auto
+            my-10
         ">
             {children}
         </main>
