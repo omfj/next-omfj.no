@@ -1,13 +1,17 @@
 import Header from '../components/Header';
+import SEO from '../components/SEO';
 
 const Home = () => {
     return (
         <>
+            <SEO title="OMFJ - Home" />
             <Header title="Ole Magnus" />
             <p className="
-                italic
+                font-bold
                 text-center
                 mb-3
+                underline
+                text-lg
             ">
                 Hello World!
             </p>

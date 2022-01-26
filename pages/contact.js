@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import SocialMediaImg from '../components/SocialMediaImg';
+import SEO from '../components/SEO';
 
 // Images
 import githubImage from '../public/images/github.png';
@@ -9,6 +10,7 @@ import linkedinImage from '../public/images/linkedin.png';
 const Contact = () => {
     return (
         <>
+            <SEO title="OMFJ - Contact" />
             <Header title="Contact" />
             <p className="
                 text-center

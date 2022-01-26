@@ -5,18 +5,16 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        @apply h-[100%];
-        @apply w-[100%];
-    }
-
-    html, body {
+    * {
+        @apply m-0;
+        @apply p-0;
+        @apply box-border;
         @apply text-white;
-        @apply m-0
+        @apply font-JetBrains;
     }
-
-    body {
+    html {
         @apply background-omfj;
+        @apply min-h-[100%];
         @apply bg-[#0A1129];
     }
 }
