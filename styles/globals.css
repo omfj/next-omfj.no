@@ -9,6 +9,7 @@
         @apply h-[100%];
         @apply w-[100%];
         @apply background-omfj;
+        @apply bg-[#040d33];
         @apply text-white;
     }
 
