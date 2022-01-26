@@ -1,17 +1,16 @@
 const Layout = ({ children }) => {
     return (
-        <div>
-            <main className="
-                font-JetBrains 
-                my-20 
-                w-[500px] 
-                absolute 
-                left-1/2 
-                -translate-x-1/2
-            ">
-                {children}
-            </main>
-        </div>
+        <main className="
+            font-JetBrains 
+            max-w-[500px]
+            w-[90%]
+            absolute
+            top-[10%]
+            left-1/2 
+            -translate-x-1/2
+        ">
+            {children}
+        </main>
     )
 }
 

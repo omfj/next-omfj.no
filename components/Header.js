@@ -2,7 +2,7 @@ import Nav from './Nav';
 
 const Header = ({ title }) => {
     return (
-        <div>
+        <>
             <h1 className="
               text-3xl
               font-bold
@@ -11,7 +11,7 @@ const Header = ({ title }) => {
               {title}
             </h1>
             <Nav />
-        </div>
+        </>
     )
 }
 

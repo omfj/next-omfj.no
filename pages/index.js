@@ -2,7 +2,7 @@ import Header from '../components/Header';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header title="Ole Magnus" />
             <p className="
                 italic
@@ -16,7 +16,7 @@ const Home = () => {
             ">
                 I am a student from Norway, studying cybersecurity at the University of Bergen.
             </p>
-        </div>
+        </>
     )
 }
 

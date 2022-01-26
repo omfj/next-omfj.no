@@ -5,10 +5,15 @@ const NavLink = ({ title, href}) => {
             href={href}
             className="
                 text-center
-                mx-5
+                py-2
+                px-3
+                m-auto
+                sm:text-lg
                 rounded-xl
-                p-2
                 hover:bg-[#4e4e4e]
+                hover:scale-110
+                ease-out
+                duration-300
             "
         >
             {title}

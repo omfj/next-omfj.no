@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Image from 'next/image';
+import SocialMediaImg from '../components/SocialMediaImg';
 
 // Images
 import githubImage from '../public/images/github.png';
@@ -8,37 +8,43 @@ import linkedinImage from '../public/images/linkedin.png';
 
 const Contact = () => {
     return (
-        <div>
+        <>
             <Header title="Contact" />
             <p className="
                 text-center
-                mb-4
+                mb-10
+                text-sm
             ">
                 Feel free to contact me if you have any inquiries.
             </p>
             <div className="
                 grid
                 grid-cols-3
-                content-center
                 justify-items-center
             ">
-                <Image 
+                <SocialMediaImg 
                     src={githubImage} 
                     height={100} 
                     width={100}
+                    href="https://github.com/omfj"
+                    alt="Github logo with link to my github."
                 />
-                <Image 
+                <SocialMediaImg 
                     src={instaImage} 
                     height={100} 
                     width={100} 
+                    href="https://instagram.com/lordolem"
+                    alt="Instagram logo with link to my instagram"
                 />
-                <Image 
+                <SocialMediaImg 
                     src={linkedinImage}
                     height={100} 
-                    width={100} 
+                    width={100}
+                    href="https://linkedin/in/omfj"
+                    alt="Linkedin logo with link to my linkedin"
                 />
             </div>
-        </div>
+        </>
     )
 }
 

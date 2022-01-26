@@ -3,7 +3,7 @@ import ProjectBox from '../components/ProjectBox';
 
 const Projects = () => {
     return (
-        <div>
+        <>
             <Header title="Projects" />
             <ProjectBox 
                 title="This website!" 
@@ -31,7 +31,7 @@ const Projects = () => {
             ">
                 For more check out my <a className="text-[#93caed] underline" href="https://github.com/omfj">Github</a>!
             </p>
-        </div>
+        </>
     )
 }
 
