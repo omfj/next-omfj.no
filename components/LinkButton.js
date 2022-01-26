@@ -6,11 +6,11 @@ const LinkButton = ({ href }) => {
                 text-center
                 py-2
                 px-3
-                mx-5
                 text-sm
                 rounded-xl
                 bg-[#4e4e4e]
-                hover:bg-[#7e7e7e]
+                hover:bg-[#8dc3ff]
+                hover:text-black
                 ease-out
                 duration-300
             "

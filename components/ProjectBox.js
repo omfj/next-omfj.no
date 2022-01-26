@@ -6,13 +6,13 @@ const ProjectBox = ({ title, desc, href }) => {
             border-l-4 
             border-[#e6292b]
             mb-8
-            py-3
+            p-5
             last:mb-8
         ">
-            <p className="text-lg underline px-5 mb-3">
+            <p className="text-lg underline mb-3">
                 {title}
             </p>
-            <p className="text-md px-5 mb-8">
+            <p className="text-md mb-8">
                 {desc}
             </p>
             <LinkButton href={href} />

@@ -8,12 +8,18 @@
     html, body {
         @apply h-[100%];
         @apply w-[100%];
-        @apply bg-[#010510];
+        @apply background-omfj;
         @apply text-white;
     }
 
     html {
         @apply p-5;
+    }
+}
+
+@layer utilities {
+    .background-omfj {
+        background-image: linear-gradient(to bottom, #04062e, #040d33, #041237, #05153c, #061941, #071a41, #081a40, #091b40, #0a193a, #0a1634, #0b142f, #0b1129);
     }
 }
   
