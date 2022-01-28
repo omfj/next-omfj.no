@@ -7,8 +7,7 @@ const LinkButton = ({ href }) => {
             text-sm
             rounded-xl
             bg-[#4e4e4e]
-            hover:bg-[#8dc3ff]
-            hover:text-black
+            hover:bg-[#0a84ff]
             ease-out
             duration-300
         " href={href}>

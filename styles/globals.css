@@ -13,17 +13,19 @@
         @apply font-JetBrains;
     }
     html {
-        @apply background-omfj;
+        @apply dark-mode;
         @apply min-h-[100%];
-        @apply bg-[#0A1129];
     }
 }
 
 @layer utilities {
-    .background-omfj {
+    .gradient-background {
         background-image: linear-gradient(to bottom, #04062e, #040d33, #041237, #05153c, #061941, #071a41, #081a40, #091b40, #0a193a, #0a1634, #0b142f, #0b1129);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .dark-mode {
+        background: #171717;
     }
 }
   

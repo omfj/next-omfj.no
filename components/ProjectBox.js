@@ -4,7 +4,7 @@ const ProjectBox = ({ title, desc, href }) => {
     return (
         <div className="
             border-l-4 
-            border-[#e6292b]
+            border-[#0a84ff]
             mb-8
             p-5
             last:mb-8

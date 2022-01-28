@@ -31,7 +31,7 @@ const Projects = () => {
                 text-center
                 sm:mb-[100px]
             ">
-                For more check out my <a className="text-[#93caed] underline" href="https://github.com/omfj">Github</a>!
+                For more check out my <a className="text-[#0a84ff] underline" href="https://github.com/omfj">Github</a>!
             </p>
         </>
     )

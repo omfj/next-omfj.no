@@ -8,8 +8,7 @@ const NavLink = ({ title, href}) => {
             m-auto
             sm:text-lg
             rounded-xl
-            hover:bg-[#c6e1ff]
-            hover:text-black
+            hover:bg-[#0a84ff]
             hover:scale-110
             ease-out
             duration-300
