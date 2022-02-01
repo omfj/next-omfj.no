@@ -42,7 +42,7 @@ const Contact = () => {
                     src={linkedinImage}
                     height={100} 
                     width={100}
-                    href="https://linkedin/in/omfj"
+                    href="https://linkedin.com/in/omfj"
                     alt="Linkedin logo with link to my linkedin"
                 />
             </div>
