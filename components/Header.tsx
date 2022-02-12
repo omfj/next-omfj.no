@@ -1,7 +1,7 @@
 import Nav from './Nav';
 
 interface Props {
-  title: String;
+  title: string;
 }
 
 const Header = ({ title }: Props): JSX.Element => {

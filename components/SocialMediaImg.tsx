@@ -1,20 +1,24 @@
 import Image from "next/image";
 
 interface Props {
-    src: String;
+    source: any;
     height: number;
     width: number;
-    href: String;
-    alt: String;
+    href: string;
+    alt: string;
 }
 
-const SocialMediaImg = ({ src, height, width, href, alt }: Props): JSX.Element => {
+const SocialMediaImg = ({ source, height, width, href, alt }: Props): JSX.Element => {
     return (
-        <a target="_blank" href={href} target-blank className="hover:scale-125 ease-out duration-300">
+        <a 
+            target="_blank" 
+            href={href} 
+            className="hover:scale-125 ease-out duration-300"
+        >
             <Image
                 height={height}
                 width={width}
-                src={src}
+                src={source}
                 alt={alt}
             />
         </a>

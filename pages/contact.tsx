@@ -3,9 +3,9 @@ import SocialMediaImg from '../components/SocialMediaImg';
 import SEO from '../components/SEO';
 
 // Images
-import githubImage from '../public/images/github.png';
-import instaImage from '../public/images/instagram.png';
-import linkedinImage from '../public/images/linkedin.png';
+import * as GithubImage from '../public/images/github.png';
+import * as InstaImage from '../public/images/instagram.png';
+import * as LinkedinImage from '../public/images/linkedin.png';
 
 const Contact = (): JSX.Element => {
     return (
@@ -25,21 +25,21 @@ const Contact = (): JSX.Element => {
                 justify-items-center
             ">
                 <SocialMediaImg 
-                    src={githubImage} 
+                    source={GithubImage} 
                     height={100} 
                     width={100}
                     href="https://github.com/omfj"
                     alt="Github logo with link to my github."
                 />
                 <SocialMediaImg 
-                    src={instaImage} 
+                    source={InstaImage} 
                     height={100} 
                     width={100} 
                     href="https://instagram.com/lordolem"
                     alt="Instagram logo with link to my instagram"
                 />
                 <SocialMediaImg 
-                    src={linkedinImage}
+                    source={LinkedinImage}
                     height={100} 
                     width={100}
                     href="https://linkedin.com/in/omfj"

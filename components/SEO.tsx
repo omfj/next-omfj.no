@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 interface Props {
-    title: String;
+    title: string;
 }
 
 const SEO = ({ title }: Props): JSX.Element => {

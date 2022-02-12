@@ -14,7 +14,7 @@ const Projects = (): JSX.Element => {
             />
             <ProjectBox 
                 title="Kurvmatte" 
-                desc="A math game I made for my computer class in high school. (Link currently down...)"
+                desc="A math game I made for my computer class in high school. (Server currently down...)"
                 link="https://www.it1.omfj.no"
             />
             <ProjectBox 
@@ -25,7 +25,8 @@ const Projects = (): JSX.Element => {
             <ProjectBox 
                 title="@TrondheimVaeret on Twitter" 
                 desc="A dumb script made with python to automatically tweet the temperature in my hometown."
-                link="https://www.twitter.com/trondheimvaeret"
+                twitter="https://www.twitter.com/trondheimvaeret"
+                link="https://www.github.com/omfj/trondheimvaeret"
             />
             <p className="
                 text-center
