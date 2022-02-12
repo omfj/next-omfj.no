@@ -1,8 +1,8 @@
 interface Props {
-    href: String;
+    href: string;
 }
 
-const LinkButton = ({ href }: Props): JSX.Element => {
+const LinkButton = ({ link }: Props): JSX.Element => {
     return (
         <a className="
             text-center
@@ -14,7 +14,7 @@ const LinkButton = ({ href }: Props): JSX.Element => {
             hover:bg-[#0a84ff]
             ease-out
             duration-300
-        " href={href}>
+        " href={link}>
             Take a look!
         </a>
     )
