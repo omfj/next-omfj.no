@@ -1,5 +1,5 @@
 interface Props {
-    href: string;
+    link: string;
 }
 
 const LinkButton = ({ link }: Props): JSX.Element => {
