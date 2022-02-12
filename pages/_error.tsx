@@ -1,8 +1,16 @@
-import Header from '../components/Header'
+import { NextPageContext } from 'next';
+import Header from '../components/Header';
+import SEO from '../components/SEO';
 
-const Error = ({ statusCode }) => {
+interface ErrorComponentProps {
+	statusCode?: number;
+}
+
+
+const Error = ({ statusCode }: ErrorComponentProps): JSX.Element => {
 	return (
 		<>
+			<SEO title="Error" />
 			<Header title="omfj.no" />
 			<div className="
 				text-white
@@ -23,7 +31,7 @@ const Error = ({ statusCode }) => {
 	);
 }
 
-Error.getInitialProps = ({ res, err }) => {
+Error.getInitialProps = ({ res, err }: NextPageContext) => {
 	const statusCode = res ? res.statusCode : err ? err.statusCode : 404;
 	return { statusCode };
 };

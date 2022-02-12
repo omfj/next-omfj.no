@@ -1,4 +1,9 @@
-const NavLink = ({ title, href}) => {
+interface Props {
+    title: string;
+    link: string;
+}
+
+const NavLink = ({ title, link}: Props): JSX.Element => {
     title = title.toUpperCase();
     return (
         <a className="
@@ -12,7 +17,7 @@ const NavLink = ({ title, href}) => {
             hover:scale-110
             ease-out
             duration-300
-        " href={href}>
+        " href={link}>
             {title}
         </a>
     )

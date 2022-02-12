@@ -1,4 +1,8 @@
-const LinkButton = ({ href }) => {
+interface Props {
+    href: String;
+}
+
+const LinkButton = ({ href }: Props): JSX.Element => {
     return (
         <a className="
             text-center

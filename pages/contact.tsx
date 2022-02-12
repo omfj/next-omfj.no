@@ -7,10 +7,10 @@ import githubImage from '../public/images/github.png';
 import instaImage from '../public/images/instagram.png';
 import linkedinImage from '../public/images/linkedin.png';
 
-const Contact = () => {
+const Contact = (): JSX.Element => {
     return (
         <>
-            <SEO title="OMFJ - Contact" />
+            <SEO title="Contact" />
             <Header title="Contact" />
             <p className="
                 text-center

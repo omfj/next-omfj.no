@@ -1,12 +1,13 @@
 import Header from '../components/Header';
 import SEO from '../components/SEO';
 import Image from 'next/image';
-import profilepic from '../public/images/profilepic.png';
 
-const Home = () => {
+import * as Profilepic from '../public/images/profilepic.png';
+
+const Home = (): JSX.Element => {
     return (
         <>
-            <SEO title="OMFJ - Home" />
+            <SEO title="Home" />
             <Header title="Ole Magnus" />
             <div className="
                 flex
@@ -14,7 +15,7 @@ const Home = () => {
                 mb-5
             ">
                 <Image 
-                    src={profilepic}
+                    src={Profilepic}
                     width={125}
                     height={125}
                     className="

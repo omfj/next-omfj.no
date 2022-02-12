@@ -2,15 +2,15 @@ import Header from '../components/Header';
 import ProjectBox from '../components/ProjectBox';
 import SEO from '../components/SEO';
 
-const Projects = () => {
+const Projects = (): JSX.Element => {
     return (
         <>
-            <SEO title="OMFJ - Projects" />
+            <SEO title="Projects" />
             <Header title="Projects" />
             <ProjectBox 
                 title="This website!" 
                 desc="The code is on Github. Feedback is appreciated."
-                href="https://www.github.com/omfj/omfj.no"
+                href="https://www.github.com/omfj/next-omfj.no"
             />
             <ProjectBox 
                 title="Kurvmatte" 

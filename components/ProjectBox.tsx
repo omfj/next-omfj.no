@@ -1,6 +1,12 @@
 import LinkButton from './LinkButton';
 
-const ProjectBox = ({ title, desc, href }) => {
+interface Props {
+    title: String;
+    desc: String;
+    href: String;
+}
+
+const ProjectBox = ({ title, desc, href }: Props): JSX.Element => {
     return (
         <div className="
             border-l-4 

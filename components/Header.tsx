@@ -1,6 +1,10 @@
 import Nav from './Nav';
 
-const Header = ({ title }) => {
+interface Props {
+  title: String;
+}
+
+const Header = ({ title }: Props): JSX.Element => {
     return (
         <>
             <h1 className="

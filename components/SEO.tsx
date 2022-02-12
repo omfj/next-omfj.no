@@ -1,6 +1,10 @@
 import Head from 'next/head';
 
-const SEO = ({ title }) => {
+interface Props {
+    title: String;
+}
+
+const SEO = ({ title }: Props): JSX.Element => {
     return (
         <Head>
             <title>{title}</title>
