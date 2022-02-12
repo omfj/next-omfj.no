@@ -1,0 +1,3 @@
+# omfj.no
+
+Personal website
