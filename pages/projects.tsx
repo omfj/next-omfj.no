@@ -15,7 +15,7 @@ const Projects = (): JSX.Element => {
             <ProjectBox 
                 title="Kurvmatte" 
                 desc="A math game I made for my computer class in high school."
-                link="https://www.kurvmatte.omfj.no"
+                link="https://kurvmatte.omfj.no"
             />
             <ProjectBox 
                 title="Miele Logic CLI" 
