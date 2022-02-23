@@ -18,7 +18,7 @@ const Error = ({ statusCode }: ErrorComponentProps): JSX.Element => {
 			">
 				<p>
 					{statusCode
-					? `An error occurred on server`
+					? "An error occurred on server"
 					: "An error occurred on client"}
 				</p>
 				<p className="
