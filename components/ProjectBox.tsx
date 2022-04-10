@@ -30,6 +30,7 @@ const ProjectBox = ({ title, desc, link, twitter }: Props): JSX.Element => {
                 </p>
             )}
             <LinkButton link={link} />
+            <hr />
         </div>
     )
 }
