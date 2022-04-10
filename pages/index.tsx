@@ -8,20 +8,20 @@ const Home = (): JSX.Element => {
     return (
         <>
             <SEO title="Home" />
-            <Header title="Ole Magnus" />
+            <Header title="ole magnus" />
             <div className="
                 flex
                 justify-center
                 mb-5
             ">
-                <Image 
+                {/* <Image
                     src={Profilepic}
                     width={125}
                     height={125}
                     className="
                         rounded-full
                     "
-                />
+                /> */}
             </div>
             <p className="
                 font-bold

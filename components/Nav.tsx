@@ -2,10 +2,15 @@ import NavLink from './NavLink';
 
 const Nav = (): JSX.Element => {
     return (
-        <nav className="grid grid-cols-3 my-10 items-center">
-            <NavLink title="Home" link="/" />
-            <NavLink title="Projects" link="/projects" />
-            <NavLink title="Contact" link="/contact" />
+        <nav className="
+            flex
+            bg-slate-800
+            my-5
+        ">
+            <NavLink title="home" link="/" />
+            <NavLink title="projects" link="/projects/" />
+            <NavLink title="contact" link="/contact/" />
+            <NavLink title="git" link="https://git.omfj.no/" />
         </nav>
     )
 }

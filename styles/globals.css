@@ -10,22 +10,10 @@
         @apply p-0;
         @apply box-border;
         @apply text-white;
-        @apply font-JetBrains;
+        @apply font-mono;
     }
     html {
-        @apply dark-mode;
+        @apply bg-black;
         @apply min-h-[100%];
     }
 }
-
-@layer utilities {
-    .gradient-background {
-        background-image: linear-gradient(to bottom, #04062e, #040d33, #041237, #05153c, #061941, #071a41, #081a40, #091b40, #0a193a, #0a1634, #0b142f, #0b1129);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .dark-mode {
-        background: #171717;
-    }
-}
-  

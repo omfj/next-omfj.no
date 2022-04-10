@@ -10,10 +10,10 @@ interface Props {
 
 const SocialMediaImg = ({ source, height, width, href, alt }: Props): JSX.Element => {
     return (
-        <a 
-            target="_blank" 
-            href={href} 
-            className="hover:scale-125 ease-out duration-300"
+        <a
+            target="_blank"
+            href={href}
+            className="hover:scale-110 ease-out duration-300"
         >
             <Image
                 height={height}

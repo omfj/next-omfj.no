@@ -11,6 +11,7 @@ const Header = ({ title }: Props): JSX.Element => {
               text-3xl
               font-bold
               text-center
+              sm:text-left
             ">
               {title}
             </h1>

@@ -10,11 +10,13 @@ interface Props {
 const ProjectBox = ({ title, desc, link, twitter }: Props): JSX.Element => {
     return (
         <div className="
-            border-l-4 
-            border-[#0a84ff]
+            border-l-4
+            border-slate-800
             mb-8
             p-5
-            last:mb-8
+            m-auto
+            w-[95%]
+            sm:w-[100%]
         ">
             <p className="text-lg underline mb-3">
                 {title}

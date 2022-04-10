@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        JetBrains: ['JetBrains Mono'],
+        'sans': ['sans-serif'],
+        'mono': ['monospace'],
       }
     },
   },

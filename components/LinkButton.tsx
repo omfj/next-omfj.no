@@ -11,7 +11,7 @@ const LinkButton = ({ link }: Props): JSX.Element => {
             text-sm
             rounded-xl
             bg-[#4e4e4e]
-            hover:bg-[#0a84ff]
+            hover:bg-slate-800
             ease-out
             duration-300
         " href={link}>
