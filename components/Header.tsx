@@ -6,7 +6,7 @@ interface Props {
 
 const Header = ({ title }: Props): JSX.Element => {
     return (
-        <>
+        <div className="py-10">
             <h1 className="
               text-3xl
               font-bold
@@ -15,7 +15,7 @@ const Header = ({ title }: Props): JSX.Element => {
               {title}
             </h1>
             <Nav />
-        </>
+        </div>
     )
 }
 

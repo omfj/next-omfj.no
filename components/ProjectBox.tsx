@@ -1,4 +1,5 @@
 import LinkButton from './LinkButton';
+import Hidden from './Hidden';
 
 interface Props {
     title: string;
@@ -10,27 +11,30 @@ interface Props {
 const ProjectBox = ({ title, desc, link, twitter }: Props): JSX.Element => {
     return (
         <div className="
-            border-l-4
-            border-slate-800
-            mb-8
-            p-5
+            mb-10
             m-auto
-            w-[95%]
-            sm:w-[100%]
+            max-w-[600px]
         ">
-            <p className="text-lg underline mb-3">
-                {title}
-            </p>
-            <p className="text-md mb-8">
-                {desc}
-            </p>
-            {twitter && (
-                <p className="text-md mb-8 text-[#0a84ff] underline">
-                    <a href={twitter}>This is the twitter.</a>
+            <div className="
+                mx-2
+                border-l-4
+                px-5
+                border-zinc-900
+            ">
+                <p className="text-lg underline mb-3">
+                    {title}
                 </p>
-            )}
-            <LinkButton link={link} />
-            <hr className="hidden" />
+                <p className="text-md mb-8">
+                    {desc}
+                </p>
+                {twitter && (
+                    <p className="text-md mb-8 text-[#0a84ff] underline">
+                        <a href={twitter}>This is the twitter.</a>
+                    </p>
+                )}
+                <LinkButton link={link} />
+                <Hidden type="div" />
+            </div>
         </div>
     )
 }

@@ -10,7 +10,7 @@ const Home = (): JSX.Element => {
             <SEO title="Home" />
             <Header title="ole magnus" />
 
-            <div className="max-w-[300px] m-auto my-10">
+            <div className="max-w-[350px] m-auto">
                 <p className="
                     font-bold
                     text-center

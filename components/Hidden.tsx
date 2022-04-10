@@ -1,7 +1,17 @@
-const Hidden = (): JSX.Element => {
-    return (
-        <span className="hidden"> - </span>
-    )
+interface Props {
+    type: string;
+}
+
+const Hidden = ({type}: Props): JSX.Element => {
+    if (type === "sep") {
+        return (
+            <span className="hidden"> - </span>
+        )
+    } else if (type === "div") {
+        return (
+            <hr className="hidden"></hr>
+        )
+    }
 }
 
 export default Hidden;

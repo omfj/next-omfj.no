@@ -2,4 +2,4 @@
 
 git pull
 npm run build
-npm run start
+npm run start -- -p 3002

@@ -10,8 +10,8 @@ const LinkButton = ({ link }: Props): JSX.Element => {
             px-3
             text-sm
             rounded-xl
-            bg-[#4e4e4e]
-            hover:bg-slate-800
+            bg-zinc-800
+            hover:bg-zinc-900
             ease-out
             duration-300
         " href={link}>

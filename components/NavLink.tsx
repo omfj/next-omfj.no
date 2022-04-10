@@ -9,12 +9,11 @@ const NavLink = ({ title, link}: Props): JSX.Element => {
             href={link}
             className="
                 text-center
-                text-lg
                 py-2
                 px-3
                 ease-out
                 duration-300
-                hover:bg-slate-700
+                hover:bg-zinc-800
             "
         >
             {title}

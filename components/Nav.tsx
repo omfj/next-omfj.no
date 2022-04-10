@@ -4,22 +4,30 @@ import Hidden from './Hidden';
 const Nav = (): JSX.Element => {
     return (
         <div className="
-            flex
-            flex-wrap
-            bg-slate-800
-            my-5
+            bg-zinc-900
         ">
-            <hr />
 
-            <NavLink title="home" link="/" />
-            <Hidden />
-            <NavLink title="projects" link="/projects/" />
-            <Hidden />
-            <NavLink title="git" link="https://git.omfj.no/" />
-            <Hidden />
-            <NavLink title="contact" link="/contact/" />
+            <Hidden type="div" />
 
-            <hr />
+            <div className="
+                max-w-[350px]
+                flex
+                flex-wrap
+                justify-evenly
+                mt-10
+                mb-3
+                mx-auto
+            ">
+                <NavLink title="home" link="/" />
+                <Hidden type="sep" />
+                <NavLink title="projects" link="/projects/" />
+                <Hidden type="sep" />
+                <NavLink title="git" link="https://git.omfj.no/" />
+                <Hidden type="sep" />
+                <NavLink title="contact" link="/contact/" />
+            </div>
+
+            <Hidden type="div" />
         </div>
     )
 }
