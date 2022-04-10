@@ -7,7 +7,7 @@ const Hidden = ({type}: Props): JSX.Element => {
         return (
             <span className="hidden"> - </span>
         )
-    } else if (type === "div") {
+    } else {
         return (
             <hr className="hidden"></hr>
         )
