@@ -5,8 +5,9 @@ interface Props {
 const Layout = ({ children }: Props): JSX.Element => {
     return (
         <main className="
-            max-w-[700px]
+            max-w-[640px]
             mx-auto
+            min-mx-5
             my-[5rem]
         ">
             {children}

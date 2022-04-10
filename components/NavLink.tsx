@@ -5,19 +5,18 @@ interface Props {
 
 const NavLink = ({ title, link}: Props): JSX.Element => {
     return (
-        <a className="
-            text-center
-            text-lg
-            py-2
-            px-3
-            ease-out
-            duration-300
-            m-auto
-            sm:m-0
-            hover:bg-slate-700
-        "
-        href={link}>
-            {title}
+        <a href={link}>
+            <li className="
+                text-center
+                text-lg
+                py-2
+                px-3
+                ease-out
+                duration-300
+                hover:bg-slate-700
+            ">
+                {title}
+            </li>
         </a>
     )
 }
