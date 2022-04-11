@@ -13,6 +13,7 @@ const Nav = (): JSX.Element => {
                 max-w-[350px]
                 flex
                 flex-wrap
+                text-lg
                 justify-evenly
                 mt-10
                 mb-3
